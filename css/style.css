@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto
+}
+
+.myButton{
+    display: block;
+    background-color: white;
+    padding: 10px 50px;
+    border-radius: 20px;
+    border: none;
+    color: blue;
+}
+
+.myButton:hover{
+    background-color: blue;
+    color: white;
+    transition: .5s;
+
+}
+
+.hm{
+    text-transform: uppercase;
+    color: white !important;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.hm:hover{
+color: blue !important;
+}
+
+.balandlik{
+    height: 700px;
+}
+
+.balandlik img{
+    width: 60%;
+}
+
+header{
+    background-image: url(../images/banner-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.mask{
+    background-color: rgba(0, 123, 255, 0.55);
+    width: 100%;
+}
+
+.forma{
+    background-color: white;
+border-radius: 10px;
+    padding: 40px 10px ;
+}
+
+.forma h1{
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.forma input{
+    display: block;
+    width: 100%;
+    padding: 10px 25px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.forma input:last-child{
+    padding: 10px 200px;
+    background-color: rgb(0, 132, 255);
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    color: white;
+}
+
+.nav-menu{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 123, 255, 0.55)  ;
+}
+
+.about{
+    color: blue;
+    font-size: 22px;
+}
+
+.nostrum{
+    font-weight: 600;
+}
+
+.check i{
+    color: blue;
+    margin-right: 10px;
+}
+
+.check span{
+    font-weight: 700;
+}
+
+.ab img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.title1{
+    font-weight: 700;
+}
+
+.interdece{
+    text-align: center;
+    font-size: 52px;
+}
+
+.attech{
+    text-align: center;
+    font-size: 18px;
+}
+
+.bg_1{  
+    background-color: rgba(235, 212, 172, 0.486);
+}
+
+.height{
+    height: 400px;
+}
+
+.mg{
+    margin-top: 100px;
+}
+
+.bg-container1{
+    background-image: url(../images/video-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.user{
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.box {
+    display: flex;
+}
+
+.box i{
+    font-size: 52px;
+    padding-right: 3px;
+    color: rgb(12, 74, 155);
+}
+
+.seventh{
+    background-image: url(../images/banner-1.png);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.subs{
+    margin: 150px auto;
+}
+
+.our{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.imga img{
+    width: 80%;
+}
+
+.our .title{
+    color: black  ;
+    padding: 3px;
+}
+
+.subc{
+    position: relative;
+}
+.yr-email{
+    width: 100%;
+    padding: 15px 30px;
+    border-radius: 20px;
+    margin: 25px 0;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.subt{
+    position: absolute;
+    right: 1px;
+    top: 25px;
+    padding:15px 40px ;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(92, 134, 224);
+    color: white;
+}
+
+.watch-box{
+    text-align: center;
+    color: blue;
+    margin: 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.watch-box button{
+    padding: 10px 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: hwb(240 12% 18%);
+    color: white;
+}
+
+#ninth{
+    background-image: url(../images/banner-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p-4{
+    color: white;
+}
+
+.user_1{
+    margin: 0 380px;
+    text-align: center;
+}
+
+.user_1 img{
+    border-radius:50% ;
+}
+
+.star{
+    color: gold;
+}
+
+.i-buy{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    margin: 15px 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.i-order{
+    border: none;
+    box-shadow: rgba(82, 82, 158, 0.5) 0px 30px 60px -12px, rgba(27, 25, 25, 0.527) 0px 18px 36px -18px;
+    border-radius: 10px;
+    padding: 10px auto;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 5px 0;
+}
+
+.z img{
+    width: 300px;
+}
+
+.i-order h1{
+    font-size: 28px;
+}
+
+#eleventh{
+    background-image: url(../images/map.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.call{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    margin: 10px 0;
+    
+}
+
+.call .iconss{
+    width: 50px;
+    height: 50px;
+    border: solid 2px blue;
+    color: blue;
+}
+
+.iconss i{
+    padding: 15px;
+}
+
+.text-11{
+    text-align: center;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.name , .email5{
+    margin: 5px;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    padding: 5px 0;
+    border-radius: 2px;
+}
+
+.email5{
+    width: 55%;
+}
+
+.subject{
+    width: 94%;
+    margin: 5px;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    padding: 5px 0;
+    border-radius: 2px;
+}
+
+.massage{
+    width: 94%;
+    height: 150px;
+    margin: 5px;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    padding: 5px 0;
+    border-radius: 2px;
+}
+
+
+.submit2{
+    background-color: blue;
+    padding: 5px 30px;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+footer{
+    padding: 50px;
+    background-color: rgb(37, 34, 34);
+    color: white;
+}
+
+.masa{
+    display: flex;
+    justify-content: center;
+}
+
+.masa p{
+    font-size: 42px;
+    margin-right: 10px;
+}
+@media (max-width:992px) {
+    .balandlik{
+        height: auto ;
+    }
+
+    .hm{
+        text-align: center;
+        margin-left: 130px;
+    }
+
+        .forma{
+            margin-bottom: 50px;
+        }
+
+    .btn{
+        display: flex;
+        justify-content: center;
+    }
+    .height{
+        height: auto;
+
+    }
+
+    .user{
+        height: auto;
+    }
+
+    .title{
+        display: block;
+    }
+
+    .subc{
+        display: block;
+    }
+
+    .user_1{
+        margin: 0;
+    }
+}
